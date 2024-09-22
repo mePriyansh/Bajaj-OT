@@ -25,9 +25,9 @@ app.post('/bfhl', (req, res) => {
     // Response object as per requirements
     const response = {
         is_success: true,
-        user_id: 'your_name_ddmmyyyy', // Replace with your actual format e.g., 'john_doe_17091999'
-        email: 'your_email@example.com', // Replace with your actual email
-        roll_number: 'YourRollNumber', // Replace with your actual roll number
+        user_id: 'pr6479', 
+        email: 'pr6479@srmist.edu.in', 
+        roll_number: 'RA2111026010087', 
         numbers,
         alphabets,
         highest_lowercase_alphabet: highestLowercase ? [highestLowercase] : [],
